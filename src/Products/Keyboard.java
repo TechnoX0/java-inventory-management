@@ -1,3 +1,5 @@
+package Products;
+
 public class Keyboard extends Product {
     public Keyboard(int id, String name, int quantity, double price) {
         super(id, name, quantity, price, "Keyboard");

@@ -1,3 +1,5 @@
+package Products;
+
 public class Mouse extends Product {
     public Mouse(int id, String name, int quantity, double price) {
         super(id, name, quantity, price, "Mouse");

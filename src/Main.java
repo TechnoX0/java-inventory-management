@@ -1,3 +1,8 @@
+import Products.Headphone;
+import Products.Keyboard;
+import Products.Mouse;
+import Products.Product;
+
 import java.util.*;
 
 public class Main {
@@ -8,7 +13,7 @@ public class Main {
         int choice;
         do {
             System.out.println("\n===== INVENTORY MANAGEMENT SYSTEM =====");
-            System.out.println("1. Add Product");
+            System.out.println("1. Add Products.Product");
             System.out.println("2. View All Products");
             System.out.println("3. Search Product");
             System.out.println("4. Remove Product");

@@ -1,3 +1,5 @@
+package Products;
+
 public class Headphone extends Product {
     public Headphone(int id, String name, int quantity, double price) {
         super(id, name, quantity, price, "Headphone");
